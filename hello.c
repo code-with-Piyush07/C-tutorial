@@ -1,54 +1,47 @@
-/*#include<stdio.h>
-int main(){
-    int age;
-    printf("Enter age");
-    scanf("%d",&age);
-    if(age>=18){
-        printf("adult \n");
-    }
-    else if(age>=13 && age<18){
-        printf("teenager \n");
-    }
-    else{
-        printf("child");
-    }
-    return 0;
-}
-#include<stdio.h>
-int main(){
-    int age;
-    printf("enter age : ");
-    scanf("%d",&age);
-    age>=18?printf("adult"):printf("child");
-    return 0;}*/
-    //switch statement 
+// #include<stdio.h>
+// #include<math.h>
+// int main(){
+//     int number;
+//     printf("enter a number");
+//     scanf("%d",&number);
+//     if(number>0){
+//         if (number%2==0)
+//         {
+//             printf("number is even and positive");
+        
+//         }
+//         else printf("number is odd");
+        
+//     }
+//     else if (number<0){
+//         printf("number is negative");
+//     }
+//     else{
+//         printf("number is zero");
+//     }
+// }
+// #include<stdio.h>
+// #include<math.h>
+// int main(){
+// int marks;
+// printf(" enter number(1-99) : ");
+// scanf("%d",&marks);                      marks>=30?printf("pass"):printf("fail");
+// if(marks>30 && marks<=100)
+// printf("pass");
+// else 
+// printf("fail");
+// return 0;
  #include<stdio.h>
-int main(){
-    int day;
-    printf("enter day(1-7) : ");
-    scanf("%d",&day);
-    switch(day){
-        case 1 : 
-        printf("monday");
-        break;
-        case 2 : 
-        printf("tuesday");
-        break;
-        case 3 : 
-        printf("wednesday");
-        break;
-        case 4 : 
-        printf("thursday");
-        break;
-        case 5 : 
-        printf("friday");
-        break;
-        case 6 : 
-        printf("saturday");
-        break;
-        case 7 : 
-        printf("sunday");
-        break;
-        default: printf("enter valid");
-    }
-    return 0;}
+ #include<math.h>
+ int main(){
+    char ch;
+    printf("enter a character");
+    scanf("%c",&ch);
+    if(ch>='a' && ch<='z')
+      printf("lower case");
+      else if (ch>='A'&& ch<='Z')
+      printf("upper case");
+      else
+      printf("enter valid");
+      return 0;
+ }
